@@ -14,7 +14,7 @@ face_detector = cv.CascadeClassifier('haarcascade_frontalface_default.xml')
 # face_id = input('\n enter user id end press <return> ==>  ')
 face_id = sys.argv[1]
 if not cap.isOpened():
-    print("Cannot open camera")
+    #print("Cannot open camera")
     exit()
 count =0
 while True:
